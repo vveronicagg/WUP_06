@@ -24,6 +24,11 @@ mydata <- na.omit(mydata)
 ```
 
 # Introduction
+```{r eval=FALSE}
+mydata <- mydata %>%
+mutate(across(where(is.character), as.factor))
+```
+
 
 <!--In this section you explain what you are trying to show.  Where did the data come from?  What is the research or other question you are trying to answer?.  If you skimp in this section expect to be marked down in your grade. Paint a picture of the project a couple of paragraphs is expected!-->
 
@@ -31,7 +36,7 @@ Is attitude toward capitol punishment (cappun) independent of race (race)?
 If not, then whose view differs from whom??
 
 # Methods
-
+The two major variables that are used in this kind of problem are race and capitol punishment. This is why we will be using the file cat_cat.rmd file. Race consists of three factors and captiol punishment has two factors. 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
 
 # Results
@@ -39,6 +44,13 @@ If not, then whose view differs from whom??
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
 
 ## Descriptive Results
+```{r}
+barchartGC(~race + cappun,data=mydata)
+barchartGC(~race + cappun,data=mydata, type="percent")
+
+```
+
+This plot states that capitol punishment is dependent on race. There are about twice as many Caucasians that are for Capitol punishment. Now there are about 1/3 of African Americans are completely against Capitol punishment. Now for all the other races the plot states that 1/5 more of people in this category approve of the capitol punishment. 
 
 ### Graphical Descriptive Results
 
