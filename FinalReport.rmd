@@ -65,6 +65,12 @@ This plot states that capitol punishment is dependent on race. There are about t
 
 
 ### Numerical Descriptive Results
+```{r}
+table1 <- xtabs(~race + cappun, data=mydata)
+rowPerc(table1)
+colPerc(table1)
+```
+The numerical results show that 65% of Caucasians are in favor of capitol punishment. Also, that 58% of African Americans are against the capitol punishment. For the other races 55% are also in favor of the capitol punishment. From the looks of it Caucasian and the other races are for the capitol punishment. The other races and Caucasians are in favor of this and the African Americans are more against this idea. 
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
