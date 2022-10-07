@@ -31,6 +31,8 @@ If not, then whose view differs from whom??
 
 # Methods
 
+In this variable analysis we will be using graphical,numerical, and inferential results. To find the attitudes towards capitol punishment cappun and independent race. We will also look into the different views from the people. 
+
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
 
 # Results
