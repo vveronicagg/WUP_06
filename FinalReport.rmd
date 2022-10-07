@@ -44,15 +44,17 @@ The two major variables that are used in this kind of problem are race and capit
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
 
 ## Descriptive Results
+
+
+### Graphical Descriptive Results
 ```{r}
 barchartGC(~race + cappun,data=mydata)
 barchartGC(~race + cappun,data=mydata, type="percent")
 
 ```
-
 This plot states that capitol punishment is dependent on race. There are about twice as many Caucasians that are for Capitol punishment. Now there are about 1/3 of African Americans are completely against Capitol punishment. Now for all the other races the plot states that 1/5 more of people in this category approve of the capitol punishment. 
 
-### Graphical Descriptive Results
+
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming or departing to what is expected by your null hypothesis !-->
 
