@@ -99,5 +99,7 @@ fisherXY(mydata$race,mydata$cappun)
 The fisher XY states that there is a statistical difference on the position of capitol punishment from Caucasians and African Americans. When we saw the data the P indicated that every race stated that there was a statistical difference in each race. Now, the biggest difference was with the African Americans and Caucasians because they had the lowest P value. 
 
 # Discussion and Conclusion
+Looking over all the information the Caucasians were for the capitol punishment. But the African american were against the capitol punishment. There's a huge  difference on the topic and on the race statistically because the p value was zero. There was a 65 percent of Caucasians in favor and a 58 percent of African Americans who were opposed of the idea. But there was a 55 percent of the other races that were for the capitol punishment.  
+
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
