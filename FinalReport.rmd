@@ -42,6 +42,13 @@ In this variable analysis we will be using graphical,numerical, and inferential 
 ## Descriptive Results
 
 ### Graphical Descriptive Results
+```{r}
+barchartGC(~race + cappun,data=mydata)
+barchartGC(~race + cappun,data=mydata, type="percent")
+
+```
+
+This plot shows that there are 410 white people who are in favor of capitol punishment, and about another 200 of white people who are opposed of the capitol punishment. Around 80 of black people approve of capitol punishment, and 90 of African Americans oppose of this. The other races there are around 50 in favor and 30 opposed of this. Looking at the plot there are way more white people who are in favor of this compare to the african americans and other races. The whites is the majority of the votes who are for this. 
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming or departing to what is expected by your null hypothesis !-->
 
