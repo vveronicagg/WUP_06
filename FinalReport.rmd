@@ -77,6 +77,19 @@ The white people are 67% in favor of capitol punishment, but there are also 32% 
 
 
 ## Inferential Results
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+
+```{r}
+ fisherXY(mydata$race,mydata$cappun)
+```
+
+
+From the looks of it each group had a completely different opinion according to the fisher test. There is obviously no agreement on capitol punishment. 
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
