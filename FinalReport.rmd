@@ -61,6 +61,13 @@ This plot shows that there are 410 white people who are in favor of capitol puni
 
 
 ### Numerical Descriptive Results
+```{r}
+table1 <- xtabs(~race + cappun, mydata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+The white people are 67% in favor of capitol punishment, but there are also 32% of other white people that are against this. African Americans are 47% for it, and there are 53% opposed of it. For the other races there is a 61% for it and a 39% against this. The whites and the blacks have the biggest split. 
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
